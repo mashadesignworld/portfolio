@@ -9,6 +9,7 @@ import Project2 from "../../public/images/projects/lukenya.jpg"
 import Project3 from "../../public/images/projects/freekenya.jpg"
 import Project4 from "../../public/images/projects/rentoline.jpg"
 import HireMe from '@/components/HireMe'
+import TransitionEffect from '@/components/TransitionEffect'
 
 const FeaturedProject = ({ type, title, summary, img, link }) => {
 
@@ -84,6 +85,7 @@ const projects = () => {
                 <title>Masha Designs | Projects Page</title>
                 <meta name="description" content="portfolio" />
             </Head>
+            <TransitionEffect />
             <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text="Journey Through My Software Creations"
